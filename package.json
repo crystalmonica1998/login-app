@@ -7,7 +7,8 @@
     "build": "next build",
     "install:tool": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.4.1",
